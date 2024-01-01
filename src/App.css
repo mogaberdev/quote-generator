@@ -79,3 +79,19 @@ h1{
     grid-column: 2/4;
     grid-row: 1;
 }
+.socialSection {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.socialIcons a {
+    text-decoration: none;
+    margin: 6px 8px;
+}

@@ -1,6 +1,6 @@
 import './App.css';
 import React, {useState} from 'react';
-
+import Social from "./social"
 const App = () => {
   const url = "https://api.quotable.io/random";
   let quoteData = {
@@ -34,6 +34,7 @@ const App = () => {
           <button onClick={generateQuote}>Generate Another Quote</button>
         </div>
       </div>
+      <Social />
     </>
   )
 }
